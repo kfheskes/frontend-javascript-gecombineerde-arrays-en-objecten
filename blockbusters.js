@@ -48,13 +48,14 @@ const movies = [
 //     actors: [ "Tim Robbins", "Morgan Freeman", "Bob Gunton" ]
 // }
 
-
+console.log(movies[0]);
 
 // Opdracht 1b: Log de titel van het eerste object in de 'movies' array
 
 // Verwacht antwoord:
 // The Shawshank Redemption
 
+console.log(movies[0].title);
 
 // ------------------------------------------------------------------------------ //
 // Opdracht 2a: Log de hoeveel films er in de 'movies' array staan (de lengte van de array). Let op: wanneer de array langer of korter wordt, moet dit nog steeds werken. Je mag dus niet zelf tellen!
@@ -62,14 +63,14 @@ const movies = [
 // Verwacht antwoord:
 // 6
 
-
+console.log(movies.length);
 
 // Opdracht 2b: Log het indexnummer van de laatste film in de 'movies' array. Let op: wanneer de array langer of korter wordt, moet dit nog steeds werken!
 
 // Verwacht antwoord:
 // 5
 
-
+console.log(movies.length -1);
 
 // Opdracht 2c: Log het laatste object in de 'movies' array. Let op: wanneer de array langer of korter wordt, moet dit nog steeds werken!
 // Tip: maak gebruik van de code die je in de vorige opdracht hebt gemaakt.
@@ -82,6 +83,7 @@ const movies = [
 //     actors: [ 'Henry Fonda', 'Lee J. Cobb', 'Martin Balsam' ]
 // }
 
+console.log(movies[movies.length -1]);
 
 
 // ------------------------------------------------------------------------------ //
@@ -90,14 +92,14 @@ const movies = [
 // Verwachte antwoord:
 // ["John Travolta", "Samuel L. Jackson", "Uma Thurman"]
 
-
+console.log(movies[3].title);
 
 // Opdracht 3b: Log de tweede acteur van de film "The Shawshank Redemption". Tip: je spreekt dus eerst de array, daarna het object en vervolgens weer een array aan.
 
 // Verwacht antwoord:
 // Morgan Freeman
 
-
+console.log(movies[0].actors[1]);
 
 // Opdracht 3c: Log de laatste acteur van de laatste film in 'movies' array. Let op: wanneer de array langer of korter wordt, of wanneer er meer of minder acteurs in dit rijtje staan, moet dit nog steeds werken!
 // Tip: gebruik hiervoor o.a. jouw code uit 2b voor.
@@ -105,7 +107,7 @@ const movies = [
 // Verwacht antwoord:
 // Martin Balsam
 
-
+console.log(movies[movies.length -1].actors[2]);
 
 // ------------------------------------------------------------------------------ //
 // Opdracht 4a: Maak een if-else-statement die het woord 'Uitstekende film!!' logt,
@@ -114,6 +116,9 @@ const movies = [
 // om te kijken of je algoritme ook werkt wanneer je een andere film selecteert!
 
 const selectedMovie = movies[0];
+if (movies[0, 1, 2, 3, 4, 5] > 8){
+  console.log('Goede film');
+}
 
 // Verwacht antwoord bij 'const selectedMovie = movies[0]':
 // Uitstekende film!!
